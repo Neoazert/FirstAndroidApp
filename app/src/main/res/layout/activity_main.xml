@@ -10,7 +10,30 @@
     tools:context="com.p1502985.myfirstapplication.MainActivity">
 
     <TextView
+
+        android:textSize="103px"
+
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/test_txt"
+        android:allowUndo="false"
+        android:autoText="false"
+        android:forceHasOverlappingRendering="false"
+        android:enabled="true"
+        android:elegantTextHeight="false"
+        android:nestedScrollingEnabled="false"
+        android:textIsSelectable="false"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:id="@+id/text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
